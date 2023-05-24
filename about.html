@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="" class="logo" srcset="">
+        <nav class="header-nav">
+            <a href="index.html">Главная</a>
+            <a href="about.html">Об авторе</a>
+            <a href="MODULES.html">Модули</a>
+            <a href="MY-PROJECTS.html">Мои проекты</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Сайт резидента KIBERone</h1>
+
+        <div class="content--half">
+            <div class="content_left">
+                <div class="content_img">
+                    <img src="images/капибара.webp" alt="">
+                </div>
+            </div>
+            <div class="content--right">
+                <table class="table">
+                    <tr>
+                        <td>Имя</td>
+                        <td>-Гордей</td>
+                    </tr>
+                    <tr>
+                        <td>Фамилия</td>
+                        <td>-Волкодавов</td>
+                    </tr>
+                    <tr>
+                        <td>День рождения</td>
+                        <td>-12.10.2011</td>
+                    </tr>
+                    <tr>
+                        <td>Начал программировать</td>
+                        <td>-2022</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <h2>связаться со мной</h2>
+        <div class="form">
+            <div class="form__item">
+                <div class="form__item-title">
+                    ФИО
+                </div>
+                <input type="text" placeholder="Фамилия Имя Очество">
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    E-mail
+                </div>
+                <input type="email" placeholder="email@*">
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    Телефон
+                </div>
+                <input type="Тел" placeholder="+7 777 777 77 77" required>
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    Время
+                </div>
+                <input type="time" required>
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    Дата
+                </div>
+                <input type="date" required>
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    ЧЕГО НЕ ХВАТАЕТ НА САЙТЕ?
+                </div>
+                <div class="form__list">
+
+                    <label for="" class="form__label">
+                        ИГРА ДИНОЗАВРИК
+                        <input type="checkbox" checked="checked" name="" id="">
+                    </label>
+
+                    <label for="" class="form__label">
+                        курсы от автора
+                        <input type="checkbox" name="" id="">
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__item">
+                <div class="form__item-title">
+                    УКАЖИТЕ ВАШ ПОЛ
+                </div>
+                <div class="form__list">
+                    <label for="" class="form__label">
+                        м
+                        <input type="radio" name="POL" id="">
+                    </label>
+
+                    <label for="" class="form__label">
+                        ж
+                        <input type="radio" name="POL" id="">
+                    </label>
+                    <label for="" class="form__label">
+                        НЕ УКАЗЫВАТЬ
+                        <input type="radio" name="POL" id="">
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <h3>Карта</h3>
+            <div class="footer_map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaef85c169c91b93483d839c9c259389ef3e740fa55fdc4ccf6296006545d37f9&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <p>Сайт разработан резидентом первой международной школой прогаммирования KIBERone-Волкодавов Гордей (2023)
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
